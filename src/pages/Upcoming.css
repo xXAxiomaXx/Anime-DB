@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-style: normal;
+  line-height: normal;
+  border: none;
+}
+
+.upcoming-content {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-family: "Manjari", sans-serif;
+  font-weight: 400;
+  align-items: center;
+  height: fit-content;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.upcoming {
+  margin-top: 60px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upcoming-content hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    #ef4323,
+    #f66518,
+    #f9820c,
+    #fb9e09,
+    #fab818
+  );
+  align-self: center;
+  border: none;
+}
+
+.upcoming-components {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.link{
+  transition: .3s ease-in-out;
+}
+
+.link:hover{
+  transform: scale(1.1);
+}
+
+.anime-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 4px;
+}
+
+.anime-cards img {
+  width: 180px;
+  height: 245px;
+}
+
+.anime-cards h2 {
+  color: white;
+  width: 150px;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+}

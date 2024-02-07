@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-style: normal;
+  line-height: normal;
+  font-family: "Manjari", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 12px 18px;
+  background-color: #23252b;
+  width: 100%;
+  color: white;
+}
+
+.navbar img {
+  width: 200px;
+  height: 100%;
+  align-self: center;
+  margin-right: 32px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav a {
+  margin-left: 72px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+  letter-spacing: -0.4px;
+  font-family: "Source Sans 3", sans-serif;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.nav a:hover,
+.search a:hover {
+  color: #f47521;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search a {
+  margin-right: 20px;
+  font-size: 30px;
+  color: white;
+  align-self: center;
+  height: 30px;
+}
+
+.home {
+  background-color: black;
+  background-image: url(./images/Design\ sem\ nome.webp);
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 150px;
+  width: 400px;
+  height: 300px;
+}
+
+.home div h2 {
+  font-weight: 400;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.home div h2 span {
+  background-image: linear-gradient(
+    to right,
+    #ef4323,
+    #f66518,
+    #f9820c,
+    #fb9e09,
+    #fab818
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.home div h1 {
+  color: white;
+  height: fit-content;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  align-items: center;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.components {
+  margin-top: 60px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top .components hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    #2abdbb,
+    #229aa2,
+    #247885,
+    #255766,
+    #213944
+  );
+  align-self: center;
+  border: none;
+}
+
+.top .card-components {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link .anime-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 4px;
+  justify-content: space-between;
+  height: 340px;
+}
+
+.link {
+  transition: 0.3s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.link .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link .title img {
+  width: 180px;
+  height: 245px;
+}
+
+.link .title h2 {
+  width: 150px;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.link .info .year {
+  font-size: 15px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
+  color: #f66518;
+}
+
+.link .info .score {
+  font-size: 15px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
+  color: #2abdbb;
+}
+
+.link .info .score span {
+  color: white;
+  font-size: 16px;
+}
+
+footer {
+  height: 400px;
+  background: linear-gradient(180deg, #000 0%, #213944 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
