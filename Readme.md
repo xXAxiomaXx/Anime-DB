@@ -7,7 +7,7 @@ Este projeto parece ser um site dinâmico para informações sobre animes, const
 - React
 - JavaScript
 - Tailwind CSS
-- Potencialmente alguma API de animes (não especificada na estrutura)
+- Jikan API
 
 ## 📂 Arquitetura do Projeto
 
